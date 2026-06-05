@@ -17,6 +17,8 @@
 .color-orange {
     color: #FD6E0A;
 }
+
+/* button  */
 .btn{
     background-color: #FD6E0A;
     border: none;
@@ -25,12 +27,16 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer; 
 }
 /* main style */
 
 header{
     background-color: #FFF8F3;
+    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    background-repeat: no-repeat;
     padding-top: 50px;
+    background-position: top left, bottom right;
 }
 nav{
     width: 71%;
@@ -53,4 +59,44 @@ nav a{
     font-size: 20px;
     color: #474747;
     text-decoration: none;
+}
+
+#bannar{
+    /* border: 1px solid red; */
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bannar .bannar-content {
+    max-width: 585px;
+}
+#bannar .bannar-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #FD6E0A;
+    margin-bottom: 5px;
+}
+#bannar .bannar-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#bannar .bannar-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+/* button  */
+.button-container{
+    display: flex;
+    gap: 30px;
+}
+
+#bannar .bannar-image {
+    max-width: 585px;
+    vertical-align: middle; 
 }
